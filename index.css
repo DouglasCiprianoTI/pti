@@ -1,0 +1,141 @@
+.Titulo {
+    text-align: center;
+    color: black;
+    background-color: #00ffeafa;
+    height: 100px;
+}
+
+.Inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: none;
+    height: 150px;
+}
+
+.Inicio h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+}
+
+.Inicio img {
+    height: 230px;
+    align-items: flex-end
+}
+
+.Inicio h2 {
+    justify-content: space-around;
+}
+
+.Proposta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    ;
+    gap: 20px;
+    background-color: rgb(250, 246, 8);
+    height: 350px;
+}
+
+.Proposta h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+}
+
+.Proposta img {
+    height: 230px;
+    align-items: flex-end
+}
+
+.Proposta h2 {
+    justify-content: space-around;
+}
+
+.Registros {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    height: 230px;
+    padding-top: 2%;
+}
+
+.Registros h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Registros img {
+    height: 200px;
+}
+
+.Depoimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(250, 246, 8);
+    height: 250px;
+    padding-top: 1%;
+}
+
+.Depoimentos h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: pink;
+    height: 100px;
+    padding-top: 2%;
+}
+
+.Contato h1 {
+    background-color: none;
+    color: black;
+    padding: 10px;
+}
+
+.Contato img {
+    height: 50px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+
+}
+
+.footer img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+}
